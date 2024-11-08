@@ -12,6 +12,7 @@ We use X (Twitter formerly) posts as our data source for microblogging posts.
 The LMR system is one component of a Location Mention Prediction (LMP) system that serves as a part of a larger ecosystem of disaster response as depicted in the following Figure:
 
 ![image](https://github.com/user-attachments/assets/bd6cf77a-1889-4eec-a452-1a8633fa5de5)
+
 ![image](https://github.com/user-attachments/assets/3a06bc78-0de0-4ab2-8282-99e8f6a3bea7)
 
 
@@ -39,6 +40,7 @@ For every row in the dataset, submission files should contain 2 columns: ID and 
 
 If there are more than one location in a text, separate them with a space and keep them in order.
 
-## RESULTS
-PUBLIC LB: 0.142822049
-PRIVATE LB: 0.1504467
+## RESULTS 
+##### https://zindi.africa/competitions/microsoft-learn-location-mention-recognition-challenge/leaderboard
+* PUBLIC LB: 0.142822049
+* PRIVATE LB: 0.1504467
