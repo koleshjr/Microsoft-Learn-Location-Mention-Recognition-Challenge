@@ -12,6 +12,7 @@ We use X (Twitter formerly) posts as our data source for microblogging posts.
 The LMR system is one component of a Location Mention Prediction (LMP) system that serves as a part of a larger ecosystem of disaster response as depicted in the following Figure:
 
 ![image](https://github.com/user-attachments/assets/bd6cf77a-1889-4eec-a452-1a8633fa5de5)
+![image](https://github.com/user-attachments/assets/3a06bc78-0de0-4ab2-8282-99e8f6a3bea7)
 
 
 The LMP systems consist of two main components i.e., LMR and LMD. The Location Mention Recognition (LMR) component is responsible for extracting toponyms, i.e., place or location names from microblogging posts and assigning location types (e.g., country, state, county, city) to them. Whereas, the Location Mention Disambiguation (LMD) component resolves the extracted location mentions to geographical areas using a geo-positioning database (i.e., gazetteer). In this particular challenge, we only focus on the Location Mention Recognition task.
@@ -19,6 +20,7 @@ The LMP systems consist of two main components i.e., LMR and LMD. The Location M
 The LMR task has aims at detecting location mentions and their spans regardless of their location types. Given a microblogging post, the task is to recognize all location mentions. For example, in the following microblogging post, “Paris” is the only location mentioned. Microblogging post: “Paris flooding shuts down train lines.”
 
 The figure below illustrates further the LMR task.
+
 ![image](https://github.com/user-attachments/assets/f76989e1-fb7f-470a-bb58-f162865597c0)
 
 
